@@ -3,9 +3,6 @@ package src;
 import java.io.IOException;
 import java.util.Scanner;
 
-import com.google.gson.JsonObject;
-
-
 public class Main {
     public static void main(String[] args) {
         Api api = new Api();
@@ -52,7 +49,7 @@ public class Main {
                     System.out.println("Resultado: " + api.convertir("MXN", "USD", cantidad));
                     break;
                 case 7:
-                    System.out.println("Programa terminado.\nDEV: JUAN JOSÉ JARAMILLO VERA");
+                    System.out.println("Programa terminado.\nDEV: JUAN JOSÉ JARAMILLO VERA :)");
                     break;
                 default:
                     System.out.println("Opción no válida.");
